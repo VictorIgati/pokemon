@@ -1,0 +1,44 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "types": ["Grass", "Poison"],
+      "height": 0.7,
+      "weight": 6.9,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+      "id": 2,
+      "name": "Ivysaur",
+      "types": ["Grass", "Poison"],
+      "height": 1.0,
+      "weight": 13.0,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png"
+    },
+    {
+      "id": 3,
+      "name": "Venusaur",
+      "types": ["Grass", "Poison"],
+      "height": 2.0,
+      "weight": 100.0,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png"
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "types": ["Fire"],
+      "height": 0.6,
+      "weight": 8.5,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Charmeleon",
+      "types": ["Fire"],
+      "height": 1.1,
+      "weight": 19.0,
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"
+    }
+  ]
+}

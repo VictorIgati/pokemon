@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pokédex Explorer</h1>
+            <div class="controls">
+                <input type="text" id="search-input" placeholder="Search Pokémon">
+                <select id="type-filter">
+                    <option value="">All Types</option>
+                </select>
+            </div>
+        </header>
+        <main>
+            <div id="pokemon-list" class="pokemon-grid"></div>
+            <div id="pokemon-details" class="modal hidden">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <div id="detail-content"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Data provided by <a href="https://pokeapi.co/" target="_blank">PokéAPI</a></p>
+            <button id="theme-toggle">Toggle Theme</button>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
