@@ -10,7 +10,7 @@ let allPokemon = [];
 
 async function fetchPokemon() {
     try {
-        const response = await fetch('https://project1-zeta-ochre.vercel.app/pokemon');
+        const response = await fetch('https://project1-13s7.vercel.app/pokemon');
         const data = await response.json();
         allPokemon = data.pokemon;
         displayPokemon(allPokemon);
